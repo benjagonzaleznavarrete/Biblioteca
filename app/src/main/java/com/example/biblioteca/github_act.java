@@ -40,6 +40,8 @@ public class github_act extends AppCompatActivity {
         int farenheit= Integer.parseInt(libros.getFarenheit());
         int revival= Integer.parseInt(libros.getRevival());
         int elalquimista= Integer.parseInt(libros.getElalquimista());
+        int elpoder= Integer.parseInt(libros.getElpoder());
+        int despertar= Integer.parseInt(libros.getDespertar());
 
 
         if(libro.equals("farenheit"))
@@ -50,6 +52,16 @@ public class github_act extends AppCompatActivity {
         {
             tv.setText("El valor de revival es: "+revival);
         }
+
+        else if(libro.equals("el poder"))
+        {
+            tv.setText("El valor de el poder es: "+elpoder);
+        }
+        else if(libro.equals("despertar"))
+        {
+            tv.setText("El valor de despertar es: "+despertar);
+        }
+
         else
         {
             tv.setText("El valor de alquimista es: "+elalquimista);

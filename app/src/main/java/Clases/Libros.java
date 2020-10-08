@@ -5,12 +5,16 @@ public class Libros {
     private String farenheit;
     private String revival;
     private String elalquimista;
+    private String elpoder;
+    private String despertar;
 
     public Libros()
     {
-        farenheit="5000";
-        revival="12000";
+        farenheit="7000";
+        revival="22000";
         elalquimista="45000";
+        elpoder="88000";
+        despertar="156000";
     }
 
     public String getFarenheit()
@@ -24,4 +28,12 @@ public class Libros {
     }
 
     public String getElalquimista(){return elalquimista;}
+
+    public String getElpoder() {
+        return elpoder;
+    }
+
+    public String getDespertar() {
+        return despertar;
+    }
 }
